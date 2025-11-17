@@ -91,11 +91,11 @@ nav li a{
 .secendari-bg{
     background-color: #FFF8F3;
 }
+
 .about{
     border-radius: 10px;
     padding: 130px 150px;
     text-align: center;
-    margin-top: 130px;
 }
 
 main{
@@ -109,6 +109,24 @@ main{
     display: flex;
     justify-content: space-around;
 }
+.text-canter{
+    text-align: center;
+}
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
+
 
 
 
