@@ -148,6 +148,41 @@ main section{
 .text-center{
     text-align: center;
     margin-top: 50px;
+} 
+/* footer styles */
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+.footer-collamn{
+    width: 50%;
+}
+footer input[type="text"],footer input[type="email"],footer textarea{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+}
+.submit{
+    margin-top: 20px;
+    display: block;
+    width: 150px;
+    height: 64px;
+    background-color: #FD6E0A;
+    border-radius: 10px;
+}
+form textarea{
+    width: 461px;
+    height: 180px;
+}
+footer input[type="email"]{
+    width: 461px;
+    height: 64px;
 }
 
 
